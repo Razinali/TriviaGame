@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     var options = [
         {
             question: "In what year was Captain America born?",
@@ -62,8 +63,8 @@ $(document).ready(function () {
     var newArray = [];
     var holder = [];
 
-    //Sound clip
-    var yaySound = new Audio("./assets/sound/marvel-intro-music.mp3");
+    //music clip
+    var marvelSound = new Audio("./assets/sound/marvel-intro-music.mp3");
     $(document).ready(function() {
         marvelSong.play();
     });

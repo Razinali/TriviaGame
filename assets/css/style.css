@@ -1,0 +1,83 @@
+.answerchoice {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 40%;
+  color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: white;
+
+}
+
+#answer {
+  text-align: center;
+
+}
+
+#question {
+  text-align: center;
+  font-weight: bold;
+}
+
+#reset {
+  visibility: visible;
+}
+
+body {
+  background-image: url("../images/marvel.jpg");
+  background-size: cover;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+}
+  
+h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.897);
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 45px;
+}
+
+h4 {
+    text-align: center;
+    color:grey;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 45px;
+  }
+  
+p {
+  margin: 10px;
+  font-weight: bold;
+  color:  rgb(255, 145, 0);
+  font-size: 20px;
+}
+
+h2, h4 {
+  margin: 30px;
+  font-weight: bold;
+}
+
+.wrapper {
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgb(255, 145, 0);
+  height: 500px;
+  width: 60%;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  bottom: -150px;
+}
+.footer {
+
+  height: 4em;
+  text-align: center;
+}
