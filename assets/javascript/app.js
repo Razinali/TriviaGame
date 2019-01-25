@@ -64,15 +64,16 @@ $(document).ready(function () {
     var holder = [];
 
     //music clip
-    var marvelSound = new Audio("./assets/sound/marvel-intro-music.mp3");
+    var marvelSong = new Audio("./assets/music/marvel-intro-music.mp3");
     $(document).ready(function() {
-        marvelSong.play();
+        //marvelSong.play();
     });
    
     
     $("#reset").hide();
     //click start button to start game
     $("#start").on("click", function () {
+        marvelSong.play();
             $("#start").hide();
             displayQuestion();
             runTimer();
